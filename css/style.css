@@ -167,6 +167,9 @@ section article q{
 .people{
     margin: 24px auto 10px auto;
 }
+nav img{
+
+}
 .icons{
     margin: 93px auto 26px auto;
 }
@@ -195,6 +198,9 @@ section article q{
 }
 footer{
     background-color: black;
+}
+footer div{
+
 }
 footer .textarea{
     resize: none;
