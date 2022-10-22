@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./slick/slick.css">
 </head>
 <body>
 <header>
@@ -36,7 +38,7 @@
     </div>
 </header>
 <section>
-    <div class="container">
+    <div class="container section-container">
         <h2 class="line topic">How we make brands thrive</h2>
         <div class="d_flex">
         <article>
@@ -66,7 +68,29 @@
         </div>
     </div>
 </section>
-<section class="background_section section_size">
+<section class="slider">
+    <div class="slider_item">
+        <img src="img/target.jpg"
+             alt="target"
+             data-lazy="img/target.jpg">
+    </div>
+    <div class="slider_item">
+        <img src="img/progress.jpg"
+             alt="progress"
+             data-lazy="./img/progress.jpg">
+    </div>
+    <div class="slider_item">
+        <img src="img/solution.jpg"
+             alt="#"
+             data-lazy="img/solution.jpg">
+    </div>
+    <div class="slider_item">
+        <img src="img/target.jpg"
+             alt="target"
+             data-lazy="img/target.jpg">
+    </div>
+</section>
+<section class="background_section section_size section-container">
     <img class="container_comma" src="img/Vector.svg" alt="vector">
     <div class="d_flex container">
     <article class="article_size v_line">
@@ -84,10 +108,7 @@
     </article>
 </div>
 </section>
-<section>
-    <img src="mdk" alt="fdb">
-</section>
-<section class="background">
+<section class="background section-container">
         <h2 class="line topic">LET’s Get in touch</h2>
     <div class="container d_flex">
         <article class="article_size">
@@ -114,7 +135,6 @@
 </section>
 <footer>
     <div class="container">
-        <img src="img/logo.svg" alt="#">
         <form name="search" action="#" method="post">
             <div>
             <label for="first_name"></label>
@@ -141,5 +161,8 @@
     </div>
 </footer>
 <script src="https://kit.fontawesome.com/c090ec296e.js" crossorigin="anonymous"></script>
+<script src="slick/jquery.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>

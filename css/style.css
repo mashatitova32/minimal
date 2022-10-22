@@ -2,7 +2,47 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
+.slider{
+    max-width: 960px;
+    margin: 100px auto;
+}
+.slider-item{
+    max-height: 500px;
+    height: 100%;
+    margin: 0 8px;
+}
+.slider-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+.slick-list{
+    margin: 0 30px;
+}
+.slick-arrow, .slick-arrow:hover {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+}
+button.slick-prev, button.slick-prev:hover{
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+}
+button.slick-prev:before{
+    color: blue;
+}
+.slick-center{
+    transform: scale(1.8);
+}
+button.slick-next:before{
+    color: blue;
+}
+
 header{
     padding: 18px 0;
 }
@@ -61,8 +101,8 @@ header nav ul li{
     margin-left: 34px;
     padding-top: 23px;
 }
-section{
-    min-height: 625px;
+.section-container{
+   min-height: 625px;
 }
 .topic{
     font-family: 'Montserrat';
@@ -74,7 +114,6 @@ section{
     text-transform: uppercase;
     color: #333333;
     padding: 79px 0 28px 0;
-
 }
 .line:after{
     display: block;
@@ -84,7 +123,6 @@ section{
     height: 2px;
     background-color: rgba(0, 0, 0, 0.09);
 }
-
 section h3{
     font-family: 'Montserrat';
     font-style: normal;
@@ -97,7 +135,6 @@ section h3{
     margin-bottom: 20px;
     max-width: 300px;
 }
-
 .brands_text{
     font-family: 'Vollkorn';
     font-style: normal;
@@ -130,7 +167,6 @@ section h3{
     text-align: center;
     margin: auto auto 65px auto;
 }
-
 .background{
     background-image: url("../img/backround.jpg");
     background-size: cover;
@@ -144,7 +180,6 @@ section h3{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
     text-transform: uppercase;
     color: #ABABAB;
 }
@@ -167,9 +202,6 @@ section article q{
 .people{
     margin: 24px auto 10px auto;
 }
-nav img{
-
-}
 .icons{
     margin: 93px auto 26px auto;
 }
@@ -189,21 +221,13 @@ nav img{
 .list{
     margin: auto auto 11px auto;
     display: flex;
-
 }
 .fa-brands{
     margin:auto 9px auto 23px;
     box-sizing: border-box;
-
 }
-footer{
+footer {
     background-color: black;
-}
-footer{
-
-}
-nav{
-background-size: px;
 }
 footer .textarea{
     resize: none;
