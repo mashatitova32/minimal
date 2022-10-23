@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 .slider{
     max-width: 960px;
     margin: 100px auto;
@@ -33,14 +34,8 @@ button.slick-prev, button.slick-prev:hover{
     width: 50px;
     height: 50px;
 }
-button.slick-prev:before{
-    color: blue;
-}
 .slick-center{
     transform: scale(1.8);
-}
-button.slick-next:before{
-    color: blue;
 }
 
 header{
